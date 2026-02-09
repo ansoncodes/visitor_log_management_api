@@ -1,0 +1,48 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ========================
+# Virtual Environment
+# ========================
+venv/
+.env
+.env.*
+.venv/
+
+# ========================
+# Django
+# ========================
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# ========================
+# Django Migrations
+# (keep this commented – usually we DO commit migrations)
+# ========================
+# */migrations/__pycache__/
+# */migrations/*.pyc
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.iml
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
